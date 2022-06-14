@@ -53,6 +53,10 @@ module.exports = {
         'sponsor-6':
           ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/20reviews-solid-border-640w.png)',
         'footer-texture': 'linear-gradient(90deg, #213977 0, #005f9c 100%)',
+        // ABOUT PAGE
+        'roof-repair':
+          'url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/bg3-2880w.png)',
+        'our-team': 'background: linear-gradient(90deg,#005F9C 0,#213977 100%)',
       },
     },
   },
