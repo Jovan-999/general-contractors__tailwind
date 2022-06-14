@@ -1,13 +1,13 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    fontSize: {
-      40: '40px',
-    },
     extend: {
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
         josefin: ['Josefin Sans', 'sans-serif'],
+      },
+      fontSize: {
+        40: '40px',
       },
       colors: {
         // darkBlue: '#213977',
@@ -18,6 +18,7 @@ module.exports = {
         600: '600px',
       },
       width: {
+        51: '51px',
         200: '200px',
       },
       lineHeight: {
