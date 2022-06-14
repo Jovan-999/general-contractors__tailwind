@@ -35,6 +35,23 @@ module.exports = {
         'good-contractors':
           'url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/bg1-1920w.png)',
         'service-pattern': 'linear-gradient(90deg, #005f9c 0, #213977 100%)',
+        'dallas-house':
+          'url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/test3-1920w.png)',
+        'choose-bg':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/bg1-1920w.png)',
+        'sponsor-1':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/soap-solid-border-640w.png)',
+        'sponsor-2':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/toprated-solid-border-640w.png)',
+        'sponsor-3':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/elite-solid-border-640w.png)',
+        'sponsor-4':
+          '  url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/boha-2019-solid-border-640w.png)',
+        'sponsor-5':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/1year-solid-border-640w.png)',
+        'sponsor-6':
+          ' url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/20reviews-solid-border-640w.png)',
+        'footer-texture': 'linear-gradient(90deg, #213977 0, #005f9c 100%)',
       },
     },
   },
