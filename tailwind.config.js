@@ -32,6 +32,9 @@ module.exports = {
         650: '650px',
         900: '900px',
       },
+      boxShadow: {
+        11: 'rgb(0 0 0 / 25%) 0 0 11px 0',
+      },
       backgroundImage: {
         'hero-pattern':
           'url(https://lirp.cdn-website.com/26a6bb9c/dms3rep/multi/opt/GettyImages-165995076-1920w.jpg)',
