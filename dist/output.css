@@ -864,10 +864,6 @@ video {
   width: 5rem;
 }
 
-.w-3\/12{
-  width: 25%;
-}
-
 .max-w-1200{
   max-width: 1200px;
 }
@@ -1113,12 +1109,12 @@ video {
   padding: 0.5rem;
 }
 
-.p-0{
-  padding: 0px;
-}
-
 .p-7{
   padding: 1.75rem;
+}
+
+.p-0{
+  padding: 0px;
 }
 
 .py-4{
@@ -1381,6 +1377,45 @@ video {
 .hover\:text-\[\#0a58ca\]:hover{
   --tw-text-opacity: 1;
   color: rgb(10 88 202 / var(--tw-text-opacity));
+}
+
+.focus\:border-b-2:focus{
+  border-bottom-width: 2px;
+}
+
+.focus\:border-solid:focus{
+  border-style: solid;
+}
+
+.focus\:border-black:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.focus\:p-0:focus{
+  padding: 0px;
+}
+
+.focus\:text-\[\#0a58ca\]:focus{
+  --tw-text-opacity: 1;
+  color: rgb(10 88 202 / var(--tw-text-opacity));
+}
+
+.active\:border-b-2:active{
+  border-bottom-width: 2px;
+}
+
+.active\:border-solid:active{
+  border-style: solid;
+}
+
+.active\:border-black:active{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.active\:p-0:active{
+  padding: 0px;
 }
 
 .active\:text-\[\#0a58ca\]:active{
