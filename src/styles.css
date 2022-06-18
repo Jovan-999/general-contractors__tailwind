@@ -4,3 +4,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .clip-footer {
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  }
+  .clip-sponsors,
+  .clip-form {
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  }
+  .clip-sponsors-responsive-lg,
+  .clip-form-responsive-lg {
+    clip-path: polygon(0 0, 100% 11%, 100% 100%, 0% 100%);
+  }
+  .clip-sponsors-responsive-md,
+  .clip-form-responsive-md {
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0% 100%);
+  }
+  .clip-we-do {
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  }
+  .clip-we-do-responsive {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  }
+  .clip-hero-home {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
+  }
+  .clip-hero-home-responsive {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  }
+  .clip-header {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 10%);
+  }
+  .clip-our-services,
+  .clip-informations {
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 82%);
+  }
+
+  .clip-our-services-responsive,
+  .clip-informations-responsive {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  }
+  /* .clip-responsive-footer {
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+  } */
+}
