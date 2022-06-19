@@ -45,4 +45,24 @@
   .clip-informations-responsive {
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   }
+  .link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#fff, #fff);
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    padding-bottom: 4px;
+  }
+
+  .link-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#005f9c, #005f9c);
+  }
+
+  .link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%;
+  }
 }

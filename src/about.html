@@ -24,23 +24,18 @@
         height: 100%;
         width: 0;
         position: fixed;
-        z-index: 1;
+        z-index: 9999;
         top: 0;
         left: 0;
         background-color: white;
         overflow-x: hidden;
         transition: 0.5s;
-        padding-top: 60px;
       }
 
       .sidenav a {
         text-decoration: none;
         display: block;
         transition: 0.3s;
-      }
-
-      .sidenav a:hover {
-        color: #f1f1f1;
       }
 
       .sidenav .closebtn {
@@ -54,15 +49,9 @@
         transition: margin-left 0.5s;
         padding: 16px;
       }
-
-      @media screen and (max-height: 450px) {
-        .sidenav {
-          padding-top: 15px;
-        }
-      }
     </style>
-     <section class="max-w-1200 mx-auto h-full pb-24 lg:pb-0">
-      <header class="flex flex-row justify-between lg:h-full lg:static shadow-header lg:shadow-none fixed h-24 w-full z-50 bg-white ">
+    <section class="max-w-1200 mx-auto h-full pb-24 lg:pb-0">
+      <header class="flex flex-row justify-between lg:h-full lg:static shadow-header lg:shadow-none fixed h-24 w-full z-10 bg-white ">
         <div class="lg:hidden" id="main">
           <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
             >&#9776;</span
@@ -128,10 +117,11 @@
         </div>
       </header>
       <div id="mySidenav" class="sidenav">
-       <div class="flex  items-center justify-center">
-        <a href="javascript:void(0)" class="closebtn mt-1 ml-4" onclick="closeNav()"
+       <div class="flex items-center justify-center">
+        <a href="javascript:void(0)" class="closebtn mt-1 ml-4" onclick="closeNav()" 
         >&times;</a
       >
+       <div class="pt-5 flex">
         <a>
           <img
             class="text-white bg-[#3a5998] rounded-full mr-1 w-8 h-8"
@@ -146,94 +136,95 @@
             src="/img/google-business.svg"
           />
         </a>
+       </div>
       
 
        </div>
         <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black pt-12"
+          class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
             href="/src/home.html"
-            >Home</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Home</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black pt-12" 
+          class="m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12" 
             href="/src/about.html"
-            >About Us</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">About us</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca] focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black pt-12"
+          class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
             href="/src/services.html"
-            >Services</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Services</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black pt-12"
+          class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
             href="/src/testimonials.html"
-            >Testimonials</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] focus:text-[#0a58ca]">Testimonials</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black pt-12"
+          class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
             href="/src/gallery.html"
-            >Gallery</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Gallery</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black pt-12"
+          class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
             href="/src/contact.html"
-            >Contact Us</a
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Contact Us</span></a
           >
           <a
-          class="font-lato text-sm m-0 py-0 px-4 lg:px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black pt-12"
-          href="/src/employment.html"
-          >Employment</a
-        >
+          class=" px-4 lg:px-8 no-underline uppercase pt-12 pb-12"
+            href="/src/employment.html"
+            ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Employment</span></a
+          >
       </div>
       <div class="hidden p-4 lg:flex items-center justify-center">
         <ul class="hidden lg:flex justify-center flex-wrap list-none m-0">
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/home.html"
-              >Home</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Home</span></a
             >
           </li>
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black" 
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/about.html"
-              >About Us</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">About Us</span></a
             >
           </li>
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca] focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/services.html"
-              >Services</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Services</span></a
             >
           </li>
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]  focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/testimonials.html"
-              >Testimonials</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Testimonials</span></a
             >
           </li>
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/gallery.html"
-              >Gallery</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Gallery</span></a
             >
           </li>
           <li>
             <a
-            class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid  focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/contact.html"
-              >Contact Us</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Contact Us</span></a
             >
           </li>
           <li>
             <a
-              class="font-lato text-sm m-0 py-0 px-8 no-underline uppercase text-black hover:text-[#0a58ca]   focus:text-[#0a58ca] focus:border-solid focus:border-b-2 focus:p-0 focus:border-black"
+            class=" m-0 py-0 px-4 lg:px-8 no-underline uppercase pt-12 "
               href="/src/employment.html"
-              >Employment</a
+              ><span class="font-lato text-sm link-underline link-underline-black text-black hover:text-[#0a58ca] active:text-[#0a58ca]">Employment</span></a
             >
           </li>
         </ul>
