@@ -45,7 +45,4 @@
   .clip-informations-responsive {
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   }
-  /* .clip-responsive-footer {
-    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
-  } */
 }
