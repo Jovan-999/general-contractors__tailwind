@@ -38,6 +38,7 @@ module.exports = {
       },
       boxShadow: {
         11: 'rgb(0 0 0 / 25%) 0 0 11px 0',
+        header: ' rgba(0, 0, 0, 0.25) 0px 3px 11px 0px',
       },
       backgroundImage: {
         'hero-pattern':
