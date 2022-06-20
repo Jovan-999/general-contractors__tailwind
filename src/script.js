@@ -18,21 +18,14 @@ function closeNav() {
 //     mySidenav.style.width = '0';
 //   }
 // }
+const showMoreBtn = document.querySelector('.show-more');
+const text = document.querySelector('.show-more-pictures');
 
-const expertise = document.querySelector('.expertise');
-
-for (var i = 0; i < expertise.children.length; i++) {
-  if (i >= 8) {
-    expertise.children[i].classList.add('hidden');
-    expertise.children[i].classList.add('hidden-item');
+showMoreBtn.addEventListener('click', (e) => {
+  text.classList.toggle('more-pictures-show-more');
+  if (showMoreBtn.innerHTML === 'View More') {
+    showMoreBtn.innerHTML = 'View Less';
+  } else {
+    showMoreBtn.innerHTML = 'View More';
   }
-}
-
-const button = document.querySelector('.toggle-button');
-const hiddenItems = document.querySelectorAll('.hidden-item');
-let isHidden = true;
-button.addEventListener('click', () => {
-  button.textContent = isHidden ? 'View less' : 'View more';
-  isHidden = !isHidden;
-  hiddenItems.forEach((item) => item.classList.toggle('hidden'));
 });

@@ -65,4 +65,11 @@
     background-size: 100% 3px;
     background-position: 0 100%;
   }
+
+  .show_more-pictures {
+    display: none;
+  }
+  .show-more-pictures.more-pictures-show-more .show_more-pictures {
+    display: grid;
+  }
 }
