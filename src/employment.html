@@ -14,42 +14,7 @@
     <title>Document</title>
   </head>
   <body>
-    <style>
-      body {
-        font-family: 'Lato', sans-serif;
-        transition: background-color 0.5s;
-      }
-
-      .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 9999;
-        top: 0;
-        left: 0;
-        background-color: white;
-        overflow-x: hidden;
-        transition: 0.5s;
-      }
-
-      .sidenav a {
-        text-decoration: none;
-        display: block;
-        transition: 0.3s;
-      }
-
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 36px;
-      }
-
-      #main {
-        transition: margin-left 0.5s;
-        padding: 16px;
-      }
-    </style>
+  
     <section class="max-w-1200 mx-auto h-full pb-24 lg:pb-0">
       <header class="flex flex-row justify-between lg:h-full lg:static shadow-header lg:shadow-none fixed h-24 w-full z-10 bg-white ">
         <div class="lg:hidden" id="main">
@@ -116,6 +81,7 @@
           </a>
         </div>
       </header>
+      <div id="overlay" class="fixed hidden w-full h-full top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)] z-40 cursor-pointer"></div>
       <div id="mySidenav" class="sidenav">
        <div class="flex items-center justify-center">
         <a href="javascript:void(0)" class="closebtn mt-1 ml-4" onclick="closeNav()" 

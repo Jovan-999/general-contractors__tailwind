@@ -1,23 +1,12 @@
-// window.addEventListener('click', outsideClick);
-
 function openNav() {
   document.getElementById('mySidenav').style.width = '70%';
-  document.getElementById('main').style.marginLeft = '0%';
-  document.body.style.backgroundColor = 'rgba(0,0,0,0.6)';
+  document.getElementById('overlay').style.display = 'block';
 }
 
 function closeNav() {
   document.getElementById('mySidenav').style.width = '0';
-  document.getElementById('main').style.marginLeft = '0';
-  document.body.style.backgroundColor = 'white';
+  document.getElementById('overlay').style.display = 'none';
 }
-
-// // Close If Outside Click
-// function outsideClick(e) {
-//   if (e.target == mySidenav) {
-//     mySidenav.style.width = '0';
-//   }
-// }
 
 const showMoreBtn = document.querySelector('.show-more');
 const text = document.querySelector('.show-more-pictures');
