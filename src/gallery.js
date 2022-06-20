@@ -18,3 +18,15 @@ function closeNav() {
 //     mySidenav.style.width = '0';
 //   }
 // }
+
+const showMoreBtn = document.querySelector('.show-more');
+const text = document.querySelector('.show-more-pictures');
+
+showMoreBtn.addEventListener('click', (e) => {
+  text.classList.toggle('more-pictures-show-more');
+  if (showMoreBtn.innerHTML === 'View More') {
+    showMoreBtn.innerHTML = 'View Less';
+  } else {
+    showMoreBtn.innerHTML = 'View More';
+  }
+});
