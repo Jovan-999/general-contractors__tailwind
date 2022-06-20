@@ -8,7 +8,7 @@ function closeNav() {
   document.getElementById('overlay').style.display = 'none';
 }
 
-const showMoreBtn = document.querySelector('.show-more');
+const showMoreBtn = document.querySelector('.button-show-more');
 const text = document.querySelector('.show-more-pictures');
 
 showMoreBtn.addEventListener('click', (e) => {
