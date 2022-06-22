@@ -30,7 +30,7 @@
         </div>
         <div class="hidden lg:flex lg:flex-col items-center justify-center mt-3">
            <div class="flex">
-            <a>
+            <a href="https://facebook.com/SCRinc247" target="_blank">
               <img
                 class="text-white bg-[#3a5998] rounded-full mr-1 w-8 h-8"
                 src="/img/facebook.svg"
@@ -50,20 +50,23 @@
             Roofing,Siding,Gutters,Windows and Fencing
           </p>
         </div>
-        <svg
-        class="w-8 h-8 fill-[#213977] lg:hidden mt-7 mr-7"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-        ></path>
-      </svg>
+        <a href="tel:972-839-6834">
+          <svg
+          class="w-8 h-8 fill-[#213977] lg:hidden mt-7 mr-7"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+          ></path>
+        </svg>
+        </a>
         <div class="hidden lg:flex mr-5">
           <a
             class="text-white bg-[#005f9c] w-200 h-60 flex items-center no-underline rounded mt-4 cursor-pointer hover:bg-[#0069ad] text-xl"
-          >
+            href="tel:972-839-6834"
+            >
            <svg
               class="w-8 h-8 fill-white ml-2"
               fill="currentColor"
@@ -80,14 +83,14 @@
           </a>
         </div>
       </header>
-      <div id="overlay" class="fixed hidden w-full h-full top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)] z-40 cursor-pointer"></div>
+      <div id="overlay" class="fixed hidden w-full h-full top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)] z-40 cursor-pointer" onclick="closeNav()"></div>
       <div id="mySidenav" class="sidenav">
        <div class="flex items-center justify-center">
         <a href="javascript:void(0)" class="closebtn mt-1 ml-4" onclick="closeNav()" 
         >&times;</a
       >
        <div class="pt-5 flex">
-        <a>
+        <a href="https://facebook.com/SCRinc247" target="_blank">
           <img
             class="text-white bg-[#3a5998] rounded-full mr-1 w-8 h-8"
             src="/img/facebook.svg"
@@ -214,7 +217,7 @@
                   </svg>
               </div>
               <p class="md:text-center font-josefin font-bold text-xl">Phone</p>
-              <p class="md:text-center font-lato text-[#005f9c]">972-839-6834</p>
+              <a class="md:flex md:justify-center font-lato font-bold text-[#005f9c]" href="tel:972-839-6834">972-839-6834</a>
             </div>
           </div>
           <div class="p-5 h-auto md:w-1/3">
@@ -238,7 +241,7 @@
                 </svg>
               </div>
               <p class="md:text-center font-josefin font-bold text-xl">Email Address</p>
-              <p class="md:text-center font-lato text-[#005f9c]">info@scr247.com</p>
+              <a  class="md:flex md:justify-center font-lato font-bold text-[#005f9c]" href="mailto:info@scr247.com">info@scr247.com</a>
             </div>
           </div>
         </div>
@@ -254,36 +257,36 @@
               </div>
             </div>
             <div class="mt-8 md:mt-0 md:ml-4 md:w-1/2">
-              <div class="bg-white py-8 px-4 shadow-11">
+              <div class="bg-white py-8 md:px-4 shadow-11">
                 <form class="py-4">
                 
                  <div class="flex flex-col md:flex-row">
                   <div class="md:w-1/2 px-4 mt-2 flex flex-col">
-                    <label>Name</label>
+                    <label class="font-lato">Name</label>
                     <input type="text" class="text-black border-solid border-2 px-2 my-1 h-10" />
                   </div>
                   <div class="md:w-1/2 px-4 mt-2 flex flex-col">
-                    <label>Phone Number</label>
+                    <label class="font-lato">Phone Number</label>
                     <input type="tel" class="text-black border-solid border-2 px-2 my-1 h-10" />
                   </div>
                  </div>
                  <div class="flex flex-col md:flex-row">
                   <div class="md:w-1/2 px-4 mt-2 flex flex-col">
-                    <label>Email</label>
+                    <label class="font-lato">Email</label>
                     <input type="email" class="text-black border-solid border-2 px-2 my-1 h-10" />
                   </div>
                  
                   <div class="md:w-1/2 px-4 mt-2 flex flex-col">
-                    <label>City, State</label>
+                    <label class="font-lato">City, State</label>
                     <input type="text" class="text-black border-solid border-2 px-2 my-1 h-10" />
                   </div>
                  </div>
                   <div class="w-full px-4 mt-2 flex flex-col">
-                    <label>Message</label>
+                    <label class="font-lato">Message</label>
                     <textarea  class="text-black h-20 border-solid border-2 px-2 my-1"></textarea>
                   </div>
-                  <div class="w-40 md:w-80 h-20  px-4 mt-2">
-                    <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz&amp;co=aHR0cHM6Ly93d3cuc2NyMjQ3LmNvbTo0NDM.&amp;hl=en&amp;v=g9jXH0OtfQet-V0Aewq23c7K&amp;theme=light&amp;size=normal&amp;badge=checkbox&amp;cb=41q0uy2v59p5" class="w-40 md:w-80" role="presentation" name="a-51773v6huna5" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                  <div class="h-20 pl-4 mt-2">
+                    <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz&amp;co=aHR0cHM6Ly93d3cuc2NyMjQ3LmNvbTo0NDM.&amp;hl=en&amp;v=g9jXH0OtfQet-V0Aewq23c7K&amp;theme=light&amp;size=normal&amp;badge=checkbox&amp;cb=41q0uy2v59p5" role="presentation" name="a-51773v6huna5" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
                   </div>
                   <a
                   class="text-white bg-[#005f9c] w-36  md:w-200 h-60 no-underline  flex justify-center items-center rounded my-5 mx-4 cursor-pointer hover:bg-[#0069ad] text-xl"
@@ -318,25 +321,25 @@
           <div class="col">
             <ul class="py-4 lg:pt-8 lg:pb-12 px-0 lg:px-16 flex flex-row gap-4 lg:gap-6 flex-wrap justify-start lg:justify-center">
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/home.html">Home</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/home.html">Home</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/about.html">About Us</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/about.html">About Us</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/services.html">Services</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/services.html">Services</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/testimonials.html">Testimonials</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/testimonials.html">Testimonials</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/gallery.html">Gallery</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/gallery.html">Gallery</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/contact.html">Contact Us</a>
+                <a class="text-white font-lato text-sm no-underline mx-3  lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/contact.html">Contact Us</a>
               </li>
               <li class="uppercase">
-                <a class="text-white text-sm no-underline mx-3 lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/employment.html">Employment</a>
+                <a class="text-white font-lato text-sm no-underline mx-3 lg:px-0 link-underline link-underline-white hover:text-white active:text-white" href="/src/employment.html">Employment</a>
               </li>
             </ul>
           </div>
@@ -345,7 +348,7 @@
           <div class="col-span-12 lg:col-span-6 ">
             <div class="text-white px-0 lg:px-16 justify-center lg:border-r-2 lg:border-r-[#ffffff1a] lg:border-solid font-lato">
               <p class="lg:text-center text-sm">Phone:
-                <a class="font-bold" href="#">
+                <a class="font-bold" href="tel:972-839-6834">
                   972-839-6834
                 </a>
                 | Fax: 972-767-4217 | Business Hours: 24/7
@@ -371,7 +374,7 @@
                     alt="Cash Payment Accepted"></div>
               </div>
               <div class="flex items-center justify-start lg:justify-center mt-3">
-                <a>
+                <a href="https://facebook.com/SCRinc247" target="_blank">
                   <img
                     class="text-white bg-[#3a5998] rounded-full mr-1 w-8 h-8"
                     src="/img/facebook.svg"
@@ -390,10 +393,10 @@
           </div>
           <div class="col-span-12 lg:col-span-6">
             <div class="py-8 px-0 lg:px-16">
-              <p class="text-white lg:text-center text-xs">
+              <p class="text-white lg:text-center text-xs font-lato">
                 Content, including images, displayed on this website is protected by copyright laws.
                 Downloading, republication, retransmission or reproduction of content on this website is strictly
-                prohibited. <a class="underline" href="#">Terms of Use</a> | <a class="underline" href="#">Privacy Policy</a>
+                prohibited. <a class="underline" href="https://www.thryv.com/client-terms-of-use/" target="_blank">Terms of Use</a> | <a class="underline" href="https://www.thryv.com/client-privacy-policy/"  target="_blank">Privacy Policy</a>
               </p>
             </div>
           </div>
