@@ -10,7 +10,7 @@ module.exports = {
         40: '40px',
       },
       colors: {
-        // darkBlue: '#213977',
+        darkBlue: '#213977',
         // lightBlue: '#477cdf',
       },
       maxWidth: {
