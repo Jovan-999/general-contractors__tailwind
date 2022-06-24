@@ -13,3 +13,17 @@ function closeOverlay() {
   document.getElementById('mySidenav').style.width = '0';
   document.getElementById('overlay').style.display = 'none';
 }
+
+const showMoreBtn = document.querySelector('.button-show-more');
+const show = document.querySelector('.show-more-pictures');
+
+if (showMoreBtn !== null) {
+  showMoreBtn.addEventListener('click', function () {
+    show.classList.toggle('more-pictures-show-more');
+    if (showMoreBtn.innerHTML === 'View More') {
+      showMoreBtn.innerHTML = 'View Less';
+    } else {
+      showMoreBtn.innerHTML = 'View More';
+    }
+  });
+}
